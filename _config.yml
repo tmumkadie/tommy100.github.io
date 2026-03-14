@@ -1,10 +1,21 @@
+
 layout: sidebar
 style: light
+
+
+title: Tommy Thompson
+description: Software Engineer passionate about AI and finetuning models.
+email: tommythompson@icloud.com
+github_username:  tmumkadie
+
 
 plugins:
   - jekyll-octicons
   - jekyll-github-metadata
   - jemoji
+
+
+github: [metadata]
 
 permalink: /:year/:month/:day/:title/
 
@@ -21,7 +32,7 @@ projects:
   # sort_by options:
   #   - pushed
   #   - stars
-  limit: 9
+  limit: 0
   exclude:
     archived: false
     forks: true
@@ -46,12 +57,23 @@ projects:
   # website: http://your_website_url
   # youtube: your_username
 
+
 topics:
+  - name: Artificial Intelligence
+    web_url: https://github.com/topics/artificial-intelligence
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/machine-learning/machine-learning.png
+
+  - name: Fine-tuning LLMs
+    web_url: https://github.com/topics/fine-tuning
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/tensorflow/tensorflow.png
+
   - name: CSS
     web_url: https://github.com/topics/css
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
 
-  - name: Web design
+  - name: Web Design
+    web_url: https://github.com/topics/web-design
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png
 
   - name: Sass
     web_url: https://github.com/topics/sass
