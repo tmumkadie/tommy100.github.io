@@ -161,7 +161,7 @@ layout: default
 ---
 ```
 
-## Adding blog posts
+I CANT ## Adding blog posts #to redo-----
 
 To **add a blog post** to your website:
 

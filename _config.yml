@@ -1,6 +1,8 @@
 
-layout: sidebar
-style: light
+
+# Yes — layout is how the elements of your webpage are arranged/positioned on the screen.
+layout: stacked
+style: dark # background
 
 
 title: Tommy Thompson
@@ -29,20 +31,19 @@ defaults:
 
 projects:
   sort_by: pushed
-  # sort_by options:
-  #   - pushed
-  #   - stars
-  limit: 0
+  sort_by options:
+    pushed
+     stars
+  limit: 2
   exclude:
-    archived: false
+    archived: true
     forks: true
     projects:
-    # - repo-name
+      #repo-name
 
-# social_media:
+social_media:
   # behance: your_username
   # dribbble: your_username
-  # facebook: your_username
   # hackerrank: your_username
   # instagram: your_username
   # keybase: your_username
@@ -51,11 +52,11 @@ projects:
   # medium: your_username
   # stackoverflow: your_user_id
   # telegram: your_username
-  # twitter: your_username
+  X: "@mumkadie2012"
   # unsplash: your_username
   # vk: your_username
   # website: http://your_website_url
-  # youtube: your_username
+  youtube: "@tommythompson9828"
 
 
 topics:
@@ -63,18 +64,22 @@ topics:
     web_url: https://github.com/topics/artificial-intelligence
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/machine-learning/machine-learning.png
 
-  - name: Fine-tuning LLMs
-    web_url: https://github.com/topics/fine-tuning
+  - name: Large Language Models
+    web_url: https://github.com/topics/llm
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/tensorflow/tensorflow.png
 
-  - name: CSS
-    web_url: https://github.com/topics/css
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
+  - name: Cybersecurity
+    web_url: https://github.com/topics/cybersecurity
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/linux/linux.png
 
-  - name: Web Design
-    web_url: https://github.com/topics/web-design
-    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png
+  - name: DevOps
+    web_url: https://github.com/topics/devops
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/docker/docker.png
 
-  - name: Sass
-    web_url: https://github.com/topics/sass
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
+  - name: Computer Vision
+    web_url: https://github.com/topics/computer-vision
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png
+
+  - name: Web3
+    web_url: https://github.com/topics/web3
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/ethereum/ethereum.png
