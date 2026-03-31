@@ -1,11 +1,21 @@
-@import "primer"; // SCSS source of Primer
-@import "highlight-syntax";
+// SCSS Variables
+$color-bg-primary: #ffffff; // white background for the page
+$color-bg-secondary: #ffffff; // white background for cards
 
-// Override colors
-$color-text-primary: #222222; // slightly darker text
-$color-bg-primary: #ffffff; // clean white background
-$color-accent-fg: #ff4500; // bright accent (links, buttons, icons)
-$color-border-muted: #cccccc; // subtle borders
+// Card styling
+.card {
+  background-color: $color-bg-secondary;
+  border: 1px solid #cccccc; // light gray border
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+// Body
+body {
+  background-color: $color-bg-primary;
+}
 
 // If a user adds a custom font, this component will stop it from bleeding into GitHub components:
 .github-component {
